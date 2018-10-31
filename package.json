@@ -5,6 +5,8 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
     "gatsby": "^2.0.0",
     "gatsby-plugin-netlify": "^2.0.0",
     "gatsby-plugin-netlify-cms": "^3.0.0",
@@ -43,5 +45,10 @@
   "devDependencies": {
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true
   }
 }
